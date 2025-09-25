@@ -22,7 +22,6 @@ Console.WriteLine($"{days}.{hours}:{minutes}:{sec}");
 
 double daysfraction = seconds / 86400.0;
 
-Console.WriteLine($"In total, that's {daysfraction:F16}"); /* not sure how to get
-the 7 at the end...*/
+Console.WriteLine($"In total, that's {daysfraction:F16}");
 
 
